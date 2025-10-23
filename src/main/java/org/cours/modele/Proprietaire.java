@@ -19,8 +19,7 @@ import lombok.Setter;
 
 @Entity 
 @Data 
-@RequiredArgsConstructor 
-@NoArgsConstructor 
+@RequiredArgsConstructor  
 public class Proprietaire { 
 	@Id 
 	@GeneratedValue(strategy=GenerationType.AUTO) 
